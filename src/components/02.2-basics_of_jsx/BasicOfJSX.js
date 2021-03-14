@@ -14,7 +14,7 @@ const BasicOfJSX = () => {
             <br />
             {string.length}
         </div>
-    )
+    );
 }
 
 export default BasicOfJSX;
