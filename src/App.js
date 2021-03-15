@@ -4,12 +4,12 @@
 //import Quiz from './components/03.2-Quiz/Quiz';
 //import Buttons from './components/04.1-Buttons/Buttons';
 //import Cards from './components/04.2-Cards/Cards'
-import CardsWithFunction from './components/04.2-Cards/CardsWithFunction';
+//import CardsWithFunction from './components/04.2-Cards/CardsWithFunction';
+//import ButtonsWithFunction from './components/04.1-Buttons/ButtonsWithFunction';
 
 function App() {
   return (
     <div>
-      <CardsWithFunction />
     </div>
   );
 }
