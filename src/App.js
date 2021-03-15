@@ -7,10 +7,12 @@
 //import CardsWithFunction from './components/04.2-Cards/CardsWithFunction';
 //import ButtonsWithFunction from './components/04.1-Buttons/ButtonsWithFunction';
 //import Counter from './components/07.1-Increment/Counter';
+import YellowBoxContainer from './components/07.2-Hide_and_seek/YellowBoxContainer';
 
 function App() {
   return (
     <div>
+      <YellowBoxContainer />
     </div>
   );
 }
