@@ -14,7 +14,7 @@ class  MyFavoriteColor extends Component {
     }
     
     componentDidUpdate() {
-        this.myRef.current.innerHTML = `My favorite color is ${this.state.favoriteColor}`;
+        this.myRef.current.textContent = `My favorite color is ${this.state.favoriteColor}`;
     }
 
     render() {

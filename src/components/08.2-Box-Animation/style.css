@@ -1,0 +1,17 @@
+.boxes {
+    position: absolute;
+    left: -50%;
+    margin: 10px;
+    padding: 10px;
+    transition: all .6s ease;
+    outline: none;
+}
+
+.box {
+    background-color: #FDA7DF;
+    margin: 10px;
+}
+
+.boxes:focus {
+    left: 0%;
+}
