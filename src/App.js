@@ -9,12 +9,12 @@
 //import Counter from './components/07.1-Increment/Counter';
 //import YellowBoxContainer from './components/07.2-Hide_and_seek/YellowBoxContainer';
 //import MyFavoriteColor from "./components/08.1-Life_Cycle_Methods/MyFavoriteColor";
-import Boxes from "./components/08.2-Box-Animation/Boxes";
+//import Boxes from "./components/08.2-Box-Animation/Boxes";  
+//import ChangingBox from "./components/08.3-Changing-box/ChangingBox";
 
 function App() {
   return (
     <div>
-      <Boxes />
     </div>
   );
 }

@@ -10,7 +10,6 @@ class Box extends Component {
                     height: this.props.size,
                     top: this.props.top
                 }}
-                ref={this.myRef}
             >
             </div>
         );
