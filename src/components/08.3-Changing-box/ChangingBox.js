@@ -14,6 +14,7 @@ class ChangingBox extends Component {
     
     componentDidMount() {
         this.interval = setInterval(() => {
+            console.log(this.state.index)
             this.setState({ index: (this.state.index + 1) % 5 })
         }, 500);    
     }

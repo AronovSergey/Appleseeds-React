@@ -1,3 +1,4 @@
+//import Test from "./components/test/Test";
 //import HelloWorld from './components/02.1-Hello_world/HelloWorld';
 //import BasicOfJSX from './components/02.2-Basics_of_jsx/BasicOfJSX';
 //import Boxes from './components/03.1-Boxes/Boxes';
@@ -11,10 +12,15 @@
 //import MyFavoriteColor from "./components/08.1-Life_Cycle_Methods/MyFavoriteColor";
 //import Boxes from "./components/08.2-Box-Animation/Boxes";  
 //import ChangingBox from "./components/08.3-Changing-box/ChangingBox";
+//import Spinner from "./components/09.1-Spinner/Spinner";
+
+import WhatIsTheColor from "./components/11.1-Child_to_father_colors/WhatIsTheColor";
+
 
 function App() {
   return (
     <div>
+      <WhatIsTheColor />
     </div>
   );
 }

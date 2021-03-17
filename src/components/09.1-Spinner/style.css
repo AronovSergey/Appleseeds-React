@@ -1,0 +1,37 @@
+.spinner {
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: calc(50% - 60px);
+}
+
+.dot-1,
+.dot-2,
+.dot-3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: orange;
+    animation: change-color 1s infinite;
+}
+
+.dot-2 {
+    animation-delay: 0.5s;
+}
+
+.dot-3 {
+    animation-delay: 0.75s;
+}
+
+@keyframes change-color {
+    to {
+        background: gray;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
