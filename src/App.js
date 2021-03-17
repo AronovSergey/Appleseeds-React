@@ -13,14 +13,14 @@
 //import Boxes from "./components/08.2-Box-Animation/Boxes";  
 //import ChangingBox from "./components/08.3-Changing-box/ChangingBox";
 //import Spinner from "./components/09.1-Spinner/Spinner";
-
-import WhatIsTheColor from "./components/11.1-Child_to_father_colors/WhatIsTheColor";
+//import WhatIsTheColor from "./components/11.1-Child_to_father_colors/WhatIsTheColor";
+import CheckboxContainer from "./components/11.2-Checkbox/CheckboxContainer";
 
 
 function App() {
   return (
     <div>
-      <WhatIsTheColor />
+      <CheckboxContainer />
     </div>
   );
 }
