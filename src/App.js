@@ -15,13 +15,15 @@
 //import Spinner from "./components/09.1-Spinner/Spinner";
 //import WhatIsTheColor from "./components/11.1-Child_to_father_colors/WhatIsTheColor";
 //import CheckboxContainer from "./components/11.2-Checkbox/CheckboxContainer";
-import Formreiew from "./components/11.3-Formreview.js/Formreiew";
+//import Formreiew from "./components/11.3-Formreview.js/Formreiew";
+
+import ChuckNoriss from "./components/12.1-Chuck_Norris.js/ChuckNoriss";
 
 
 function App() {
   return (
     <div>
-      <Formreiew />
+      <ChuckNoriss />
     </div>
   );
 }
