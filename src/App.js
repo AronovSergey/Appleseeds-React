@@ -17,13 +17,14 @@
 //import CheckboxContainer from "./components/11.2-Checkbox/CheckboxContainer";
 //import Formreiew from "./components/11.3-Formreview.js/Formreiew";
 //import ChuckNoriss from "./components/12.1-Chuck_Norris.js/ChuckNoriss";
-import Data from "./components/13.1-Data_Massaging/Data";
+//import Data from "./components/13.1-Data_Massaging/Data";
+import RandomAvatar from "./components/13.2-Avatars/RandomAvatar";
 
 
 function App() {
   return (
     <div>
-      <Data />
+      <RandomAvatar />
     </div>
   );
 }
