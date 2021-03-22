@@ -19,13 +19,14 @@
 //import ChuckNoriss from "./components/12.1-Chuck_Norris.js/ChuckNoriss";
 //import Data from "./components/13.1-Data_Massaging/Data";
 //import RandomAvatar from "./components/13.2-Avatars/RandomAvatar";
-import Focus from "./components/14.1-Focus/Focus";
+//import Focus from "./components/14.1-Focus/Focus";
+import Copy from "./components/14.2-Copy/Copy";
 
 
 function App() {
   return (
     <div>
-      <Focus />
+      <Copy />
     </div>
   );
 }
