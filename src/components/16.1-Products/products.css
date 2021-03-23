@@ -1,0 +1,29 @@
+.header {
+    background-color: cadetblue;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header .link {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.homepage {
+    margin: 30px;
+    font-size: 40px;
+}
+
+.products__link {
+    padding: 15px;
+    font-size: 22px;
+    text-decoration: none;
+    color: grey;
+}
+
+.product {
+    margin: 30px;
+}

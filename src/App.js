@@ -20,13 +20,14 @@
 //import Data from "./components/13.1-Data_Massaging/Data";
 //import RandomAvatar from "./components/13.2-Avatars/RandomAvatar";
 //import Focus from "./components/14.1-Focus/Focus";
-import Copy from "./components/14.2-Copy/Copy";
+//import Copy from "./components/14.2-Copy/Copy";
+import Main from "./components/16.1-Products/Main";
 
 
 function App() {
   return (
-    <div>
-      <Copy />
+    <div> 
+      <Main />
     </div>
   );
 }
