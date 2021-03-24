@@ -21,13 +21,14 @@
 //import RandomAvatar from "./components/13.2-Avatars/RandomAvatar";
 //import Focus from "./components/14.1-Focus/Focus";
 //import Copy from "./components/14.2-Copy/Copy";
-import Main from "./components/16.1-Products/Main";
+//import Main from "./components/16.1-Products/Main";
+import Whatsapp from "./components/17.1-Crud-Mini-Project/Whatsapp";
 
 
 function App() {
   return (
     <div> 
-      <Main />
+      <Whatsapp />
     </div>
   );
 }
