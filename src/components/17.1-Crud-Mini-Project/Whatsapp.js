@@ -63,7 +63,7 @@ class Whatsapp extends Component {
         return result;
     }
 
-    async remove(id){
+    remove(id) {
         const index = this.indexOfID(id);
 
         const newMessages = this.state.messages;
@@ -71,7 +71,22 @@ class Whatsapp extends Component {
 
         this.setState({ messages: newMessages });
 
-        await axios.delete(`https://605b28aa27f0050017c06549.mockapi.io/api/v1/messages/${id}`);
+        axios.delete(`https://605b28aa27f0050017c06549.mockapi.io/api/v1/messages/${id}`);
+    }
+
+    update(id, body) {
+        const index = this.indexOfID(id);
+
+        const newMessages = this.state.messages;
+        const newMessage = newMessages[index];
+        newMessage.body = body;
+        newMessage.hasBeenEdit = true;
+        newMessage.editAt = new Date();
+        newMessages.splice(index, 1, newMessage);
+
+        this.setState({ messages: newMessages });
+
+        axios.put(`https://605b28aa27f0050017c06549.mockapi.io/api/v1/messages/${id}`, newMessage);
     }
 
     render() {
@@ -82,6 +97,7 @@ class Whatsapp extends Component {
                 <ChatArea 
                     messages={this.state.messages}
                     onRemove={id => this.remove(id)}
+                    onUpdate={(id, body) => this.update(id, body)}
                 />
                 <InputArea 
                     onChange={(event) => this.onInputChange(event)}
