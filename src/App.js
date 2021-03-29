@@ -22,13 +22,15 @@
 //import Focus from "./components/14.1-Focus/Focus";
 //import Copy from "./components/14.2-Copy/Copy";
 //import Main from "./components/16.1-Products/Main";
-import Whatsapp from "./components/17.1-Crud-Mini-Project/Whatsapp";
+//import Whatsapp from "./components/17.1-Crud-Mini-Project/Whatsapp";
+import TextExample from "./components/18.1.Text/TextExample";
+
 
 
 function App() {
   return (
-    <div> 
-      <Whatsapp />
+    <div>
+      <TextExample /> 
     </div>
   );
 }

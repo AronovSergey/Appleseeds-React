@@ -1,0 +1,13 @@
+span {
+    margin: 10px;
+    font-size: 16px;
+}
+
+span button {
+    background: none;
+    border: none;
+    outline: none;
+    color: cornflowerblue;
+    cursor: pointer;
+    font-size: 16px;
+}
