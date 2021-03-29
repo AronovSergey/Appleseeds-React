@@ -23,14 +23,15 @@
 //import Copy from "./components/14.2-Copy/Copy";
 //import Main from "./components/16.1-Products/Main";
 //import Whatsapp from "./components/17.1-Crud-Mini-Project/Whatsapp";
-import TextExample from "./components/18.1.Text/TextExample";
+//import TextExample from "./components/18.1-Text/TextExample";
+import Todo from "./components/18.2-Simple_Todo/Todo";
 
 
 
 function App() {
   return (
     <div>
-      <TextExample /> 
+      <Todo />
     </div>
   );
 }
