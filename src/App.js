@@ -24,14 +24,14 @@
 //import Main from "./components/16.1-Products/Main";
 //import Whatsapp from "./components/17.1-Crud-Mini-Project/Whatsapp";
 //import TextExample from "./components/18.1-Text/TextExample";
-import Todo from "./components/18.2-Simple_Todo/Todo";
-
+//import Todo from "./components/18.2-Simple_Todo/Todo";
+import Main from "./components/18.3-Whats-the-time/Main";
 
 
 function App() {
   return (
     <div>
-      <Todo />
+      <Main />
     </div>
   );
 }

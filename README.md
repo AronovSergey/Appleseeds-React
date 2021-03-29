@@ -1,1 +1,1 @@
-# Appleseeds-React-Exercises
+Appleseeds-React-Exercises
