@@ -26,14 +26,15 @@
 //import TextExample from "./components/18.1-Text/TextExample";
 //import Todo from "./components/18.2-Simple_Todo/Todo";
 //import Main from "./components/18.3-Whats-the-time/Main";
-import Main from "./components/18.4-Marking-And-Deleting/Main";
+//import Main from "./components/18.4-Marking-And-Deleting/Main";
+import SimpleFetch from "./components/19.1-Simple-Fetch/SimpleFetch";
 
 
 
 function App() {
   return (
     <div>
-      <Main />
+        <SimpleFetch />
     </div>
   );
 }
