@@ -16,7 +16,7 @@ const Algolia = () => {
                 setData(data.hits);
                 setLoading(false)
             } catch (error) {
-                setError(error);
+                setError(true);
             }
         })();
     };
@@ -55,7 +55,7 @@ const Algolia = () => {
             )}
 
             {loading && error && (
-                <div>{error}</div>   
+                <div>error</div>   
             )}
         </div>
     )
