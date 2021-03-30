@@ -8,17 +8,15 @@ const Algolia = () => {
     const [error, setError] = useState(false);
 
 
-    const fetchApi = (searchTerm) => {
-        (async () => {
-            try {
-                setLoading(true);
-                const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${searchTerm}`);
-                setData(data.hits);
-                setLoading(false)
-            } catch (error) {
-                setError(true);
-            }
-        })();
+    const fetchApi = async (searchTerm) => {
+        try {
+            setLoading(true);
+            const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${searchTerm}`);
+            setData(data.hits);
+            setLoading(false)
+        } catch (error) {
+            setError(true);
+        }
     };
 
 
