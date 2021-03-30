@@ -29,16 +29,15 @@
 //import Main from "./components/18.4-Marking-And-Deleting/Main";
 //import SimpleFetch from "./components/19.1-Simple-Fetch/SimpleFetch";
 //import Countries from "./components/19.2-Countries-Of-The-World/Countries";
-//import Algolia from "./components/19.3-Algolia-Api/Algolia";
-
-import ChuckNoriss from "./components/19.4-Chuck_Norris/ChuckNorisss";
+import Algolia from "./components/19.3-Algolia-Api/Algolia";
+//import ChuckNoriss from "./components/19.4-Chuck_Norris/ChuckNorisss";
 
 
 
 function App() {
   return (
     <div>
-      <ChuckNoriss />
+      <Algolia />
     </div>
   );
 }

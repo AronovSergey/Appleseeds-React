@@ -2,17 +2,17 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
 const Algolia = () => {
-    const [term, setTerm] = useState('hooks');
+    const [term, setTerm] = useState('');
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
 
 
-    const fetchApi = () => {
+    const fetchApi = (searchTerm) => {
         (async () => {
             try {
                 setLoading(true);
-                const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${term}`);
+                const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${searchTerm}`);
                 setData(data.hits);
                 setLoading(false)
             } catch (error) {
@@ -21,9 +21,10 @@ const Algolia = () => {
         })();
     };
 
+
     useEffect(() => {
-        fetchApi()
-    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+        fetchApi('hooks')
+    }, []); 
 
     
     const RenderAlgolia = () => {
@@ -45,7 +46,7 @@ const Algolia = () => {
                         value={term}
                         onChange={e => setTerm(e.target.value)}
                     />
-                    <button onClick={fetchApi}>search</button>
+                    <button onClick={() => fetchApi(term)}>search</button>
                     <RenderAlgolia />
                 </div>
             )}

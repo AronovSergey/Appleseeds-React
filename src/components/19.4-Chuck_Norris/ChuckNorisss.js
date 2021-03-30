@@ -12,7 +12,6 @@ const ChuckNoriss = () => {
         (async () => {
             try {
                 const response = await axios.get('https://api.chucknorris.io/jokes/categories');
-                
                 setCategories(response.data.map(category => ({ value: category, label: category })))
                 setSelectedOption(response.data[0])
             } catch (error) {
