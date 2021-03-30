@@ -28,14 +28,15 @@
 //import Main from "./components/18.3-Whats-the-time/Main";
 //import Main from "./components/18.4-Marking-And-Deleting/Main";
 //import SimpleFetch from "./components/19.1-Simple-Fetch/SimpleFetch";
-import Countries from "./components/19.2-Countries-Of-The-World/Countries";
+//import Countries from "./components/19.2-Countries-Of-The-World/Countries";
+import Algolia from "./components/19.3-Algolia-Api/Algolia";
 
 
 
 function App() {
   return (
     <div>
-      <Countries />
+      <Algolia />
     </div>
   );
 }
