@@ -12,7 +12,7 @@ const Algolia = () => {
         (async () => {
             try {
                 setLoading(true);
-                const { data } = await axios.get(`https://hn.algolia.com/api/v11/search?query=${term}`);
+                const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${term}`);
                 setData(data.hits);
                 setLoading(false)
             } catch (error) {
