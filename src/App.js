@@ -27,14 +27,15 @@
 //import Todo from "./components/18.2-Simple_Todo/Todo";
 //import Main from "./components/18.3-Whats-the-time/Main";
 //import Main from "./components/18.4-Marking-And-Deleting/Main";
-import SimpleFetch from "./components/19.1-Simple-Fetch/SimpleFetch";
+//import SimpleFetch from "./components/19.1-Simple-Fetch/SimpleFetch";
+import Countries from "./components/19.2-Countries-Of-The-World/Countries";
 
 
 
 function App() {
   return (
     <div>
-        <SimpleFetch />
+      <Countries />
     </div>
   );
 }
