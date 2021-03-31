@@ -31,14 +31,15 @@
 //import Countries from "./components/19.2-Countries-Of-The-World/Countries";
 //import Algolia from "./components/19.3-Algolia-Api/Algolia";
 //import ChuckNoriss from "./components/19.4-Chuck_Norris/ChuckNorisss";
-import CancelRequest from "./components/20.1-Cancel-Request/CancelRequest";
+//import CancelRequest from "./components/20.1-Cancel-Request/CancelRequest";
+import Editing from "./components/21.1-Editing/Editing";
 
 
 
 function App() {
   return (
     <div>
-      <CancelRequest />
+      <Editing />
     </div>
   );
 }
