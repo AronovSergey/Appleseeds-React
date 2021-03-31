@@ -32,7 +32,7 @@ const Algolia = () => {
                     {data.map(result => <li key={result.objectID}><a href={result.url}>{result.title}</a></li>)}
                 </ul>
             )
-        else return <></>
+        else return null;
     } 
 
     return (
@@ -54,7 +54,7 @@ const Algolia = () => {
             )}
 
             {loading && error && (
-                <div>error</div>   
+                <div>error...</div>   
             )}
         </div>
     )
