@@ -1,14 +1,15 @@
 import React from 'react';
 import ImgView from './ImgView';
 import './style.css';
+import WithReactEventListenre from './WithReactEventListenre';
 
 const BlackAndWhite = () => {
     return (
         <div>
-            <ImgView
+            <WithReactEventListenre
                 src='https://source.unsplash.com/random' 
             />
-            <ImgView 
+            <WithReactEventListenre 
                 src='https://source.unsplash.com/random' 
             />
         </div>
