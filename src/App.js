@@ -33,14 +33,15 @@
 //import ChuckNoriss from "./components/19.4-Chuck_Norris/ChuckNorisss";
 //import CancelRequest from "./components/20.1-Cancel-Request/CancelRequest";
 //import Editing from "./components/21.1-Editing/Editing";
-import PlayAndPause from "./components/21.2-Play-And-Pause-Video/PlayAndPause";
+//import PlayAndPause from "./components/21.2-Play-And-Pause-Video/PlayAndPause";
+import BlackAndWhite from "./components/21.3-Black-And-White/BlackAndWhite";
 
 
 
 function App() {
   return (
     <div>
-      <PlayAndPause />
+      <BlackAndWhite />
     </div>
   );
 }

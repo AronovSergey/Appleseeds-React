@@ -1,0 +1,9 @@
+.img {
+    width: 40vw;
+    height: auto;
+    margin: 2vh 4vw;
+}
+
+.black-and-white {
+    filter: grayscale(100%);
+}
