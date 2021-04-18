@@ -10,7 +10,7 @@
 //import Counter from './components/07.1-Increment/Counter';
 //import YellowBoxContainer from './components/07.2-Hide_and_seek/YellowBoxContainer';
 //import MyFavoriteColor from "./components/08.1-Life_Cycle_Methods/MyFavoriteColor";
-//import Boxes from "./components/08.2-Box-Animation/Boxes";  
+//import Boxes from "./components/08.2-Box-Animation/Boxes";
 //import ChangingBox from "./components/08.3-Changing-box/ChangingBox";
 //import Spinner from "./components/09.1-Spinner/Spinner";
 //import WhatIsTheColor from "./components/11.1-Child_to_father_colors/WhatIsTheColor";
@@ -34,14 +34,13 @@
 //import CancelRequest from "./components/20.1-Cancel-Request/CancelRequest";
 //import Editing from "./components/21.1-Editing/Editing";
 //import PlayAndPause from "./components/21.2-Play-And-Pause-Video/PlayAndPause";
-import BlackAndWhite from "./components/21.3-Black-And-White/BlackAndWhite";
-
-
+//import BlackAndWhite from "./components/21.3-Black-And-White/BlackAndWhite";
+import Bank from "./components/Node-Exercise/Bank";
 
 function App() {
   return (
     <div>
-      <BlackAndWhite />
+      <Bank />
     </div>
   );
 }
